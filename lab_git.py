@@ -1,8 +1,6 @@
 import json
 
 def info():
-    return json.dumps({"message": "Hola Mundo"})
+    return json.dumps({"message": "Hola Mundo", "userChange": "Juan David Campiño"})
 
-
-
-info()
+print(info())
