@@ -1,7 +1,7 @@
 import json
 
 def info():
-    return f"Hola Mundo"
+    return json.dumps({"message": "Hola Mundo"})
 
 
 
