@@ -4,6 +4,6 @@ import time
 def info():
     time.sleep(5)
     print("Procesando solicitud...")
-    return json.dumps({"message": "Hola Mundo", "userChange": "Juan David Campiño"})
+    return json.dumps({"message": "Hola Mundo", "userChange": "Juan David Campiño", "status": "Limpieza", 'metadata': {'status': 'success', 'code': 200}})
 
 print(info())
